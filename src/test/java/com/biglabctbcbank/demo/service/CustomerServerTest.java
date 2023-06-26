@@ -24,7 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 class CustomerServerTest {
 
 	@Mock
-	private customerrespository repository; //mock the repository
+	private customerrespository repository; //mock the repository //test
 	
 	@InjectMocks
 	 private customerservice customerservice = new customerserviceJPAimplement();
